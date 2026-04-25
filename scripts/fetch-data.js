@@ -200,6 +200,21 @@ async function fetchUSStock(symbol) {
   };
 }
 
+// -------------------- 台股名稱對照表 --------------------
+async function fetchTWNames() {
+  const url = 'https://openapi.twse.com.tw/v1/opendata/t187ap03_L'
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  const list = await res.json()
+  const names = {}
+  for (const row of list) {
+    const code = String(row['公司代號'] || '').trim()
+    const name = String(row['公司簡稱'] || row['公司名稱'] || '').trim()
+    if (code && name) names[code] = name
+  }
+  return names
+}
+
 // -------------------- Main --------------------
 async function main() {
   const repoRoot = path.join(__dirname, '..')
@@ -209,6 +224,16 @@ async function main() {
 
   let successCount = 0
   let failCount = 0
+
+  console.log('\n=== TW Stock Names (TWSE openapi) ===')
+  try {
+    const names = await fetchTWNames()
+    const namesPath = path.join(dataDir, 'TW', 'names.json')
+    fs.writeFileSync(namesPath, JSON.stringify(names, null, 2))
+    console.log(`  ✅ names.json: ${Object.keys(names).length} stocks`)
+  } catch (e) {
+    console.warn(`  ⚠️  names.json skipped: ${e.message}`)
+  }
 
   console.log('\n=== Taiwan Stocks (TWSE) ===')
   for (const symbol of Object.keys(TW_STOCKS)) {
