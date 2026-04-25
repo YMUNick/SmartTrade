@@ -1,0 +1,36 @@
+name: Fetch Stock Data
+
+on:
+  schedule:
+    # 台股收盤後 (CST 13:30 = UTC 05:30)，UTC 05:45 執行
+    - cron: '45 5 * * 1-5'
+    # 美股收盤後 (EST 16:00 = UTC 21:00)，UTC 21:15 執行
+    - cron: '15 21 * * 1-5'
+  workflow_dispatch:  # 允許手動觸發
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install script dependencies
+        run: cd scripts && npm install
+
+      - name: Fetch stock data
+        run: node scripts/fetch-data.js
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "data: update stock prices $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

@@ -1,0 +1,9 @@
+{
+  "name": "smarttrader-data-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch real stock data for SmartTrader GitHub Pages",
+  "main": "fetch-data.js",
+  "dependencies": {
+    "yahoo-finance2": "^3.14.0"
+  }
+}
