@@ -4,22 +4,14 @@
   "englishName": "TSMC",
   "market": "TW",
   "currency": "TWD",
-  "price": 2185,
-  "change": 105,
-  "changePct": 5.05,
-  "open": 2110,
-  "high": 2190,
-  "low": 2105,
-  "volume": 52391785,
+  "price": 2265,
+  "change": 80,
+  "changePct": 3.66,
+  "open": 2280,
+  "high": 2330,
+  "low": 2265,
+  "volume": 76936277,
   "candles": [
-    {
-      "time": "2025-04-16",
-      "open": 867,
-      "high": 869,
-      "low": 852,
-      "close": 855,
-      "volume": 47199014
-    },
     {
       "time": "2025-04-17",
       "open": 849,
@@ -2011,6 +2003,14 @@
       "low": 2105,
       "close": 2185,
       "volume": 52391785
+    },
+    {
+      "time": "2026-04-27",
+      "open": 2280,
+      "high": 2330,
+      "low": 2265,
+      "close": 2265,
+      "volume": 76936277
     }
   ],
   "fundamentals": {
@@ -2025,5 +2025,5 @@
     "high52w": 1120,
     "low52w": 780
   },
-  "updatedAt": "2026-04-25T05:44:21.366Z"
+  "updatedAt": "2026-04-27T07:57:07.921Z"
 }

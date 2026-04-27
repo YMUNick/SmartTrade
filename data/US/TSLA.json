@@ -5,12 +5,12 @@
   "market": "US",
   "currency": "USD",
   "price": 376.3,
-  "change": 140.04,
-  "changePct": 59.27,
+  "change": 127.59,
+  "changePct": 51.3,
   "open": 373.5,
   "high": 382.76,
   "low": 370.74,
-  "volume": 62357183,
+  "volume": 62893307,
   "candles": [
     {
       "time": "2025-04-28",
@@ -2025,5 +2025,5 @@
     "high52w": 299,
     "low52w": 138
   },
-  "updatedAt": "2026-04-25T05:44:30.700Z"
+  "updatedAt": "2026-04-27T07:57:17.081Z"
 }
