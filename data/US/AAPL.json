@@ -4,13 +4,13 @@
   "englishName": "Apple",
   "market": "US",
   "currency": "USD",
-  "price": 293.32,
-  "change": 90.13,
-  "changePct": 44.36,
-  "open": 290.11,
+  "price": 293.26,
+  "change": 104.94,
+  "changePct": 55.71,
+  "open": 290.01,
   "high": 294.76,
   "low": 290,
-  "volume": 45708423,
+  "volume": 52692761,
   "candles": [
     {
       "time": "2025-05-12",
@@ -2006,11 +2006,11 @@
     },
     {
       "time": "2026-05-08",
-      "open": 290.11,
+      "open": 290.01,
       "high": 294.76,
       "low": 290,
       "close": 293.32,
-      "volume": 45708423
+      "volume": 52631200
     }
   ],
   "fundamentals": {
@@ -2025,5 +2025,5 @@
     "high52w": 237,
     "low52w": 164
   },
-  "updatedAt": "2026-05-08T22:12:44.621Z"
+  "updatedAt": "2026-05-11T08:49:02.943Z"
 }
