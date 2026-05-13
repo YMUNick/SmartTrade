@@ -4,22 +4,14 @@
   "englishName": "NVIDIA",
   "market": "US",
   "currency": "USD",
-  "price": 220.78,
-  "change": 123.14,
-  "changePct": 126.12,
-  "open": 218.55,
-  "high": 223.75,
-  "low": 214.92,
-  "volume": 157919130,
+  "price": 225.83,
+  "change": 129.53,
+  "changePct": 134.51,
+  "open": 224.93,
+  "high": 227.84,
+  "low": 221.56,
+  "volume": 142422903,
   "candles": [
-    {
-      "time": "2025-05-14",
-      "open": 133.2,
-      "high": 135.44,
-      "low": 131.68,
-      "close": 135.34,
-      "volume": 281180800
-    },
     {
       "time": "2025-05-15",
       "open": 134.29,
@@ -2010,7 +2002,15 @@
       "high": 223.75,
       "low": 214.92,
       "close": 220.78,
-      "volume": 158666400
+      "volume": 159176600
+    },
+    {
+      "time": "2026-05-13",
+      "open": 224.93,
+      "high": 227.84,
+      "low": 221.57,
+      "close": 225.83,
+      "volume": 142422903
     }
   ],
   "fundamentals": {
@@ -2025,5 +2025,5 @@
     "high52w": 152,
     "low52w": 46
   },
-  "updatedAt": "2026-05-13T08:30:04.111Z"
+  "updatedAt": "2026-05-13T22:40:03.164Z"
 }
