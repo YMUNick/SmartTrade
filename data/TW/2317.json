@@ -4,78 +4,14 @@
   "englishName": "Hon Hai",
   "market": "TW",
   "currency": "TWD",
-  "price": 289,
-  "change": 26,
-  "changePct": 9.89,
-  "open": 269,
-  "high": 289,
-  "low": 268,
-  "volume": 289511198,
+  "price": 293.5,
+  "change": 4.5,
+  "changePct": 1.56,
+  "open": 302,
+  "high": 304.5,
+  "low": 293,
+  "volume": 205766647,
   "candles": [
-    {
-      "time": "2025-05-20",
-      "open": 157,
-      "high": 158.5,
-      "low": 153.5,
-      "close": 154,
-      "volume": 41647356
-    },
-    {
-      "time": "2025-05-21",
-      "open": 155,
-      "high": 156.5,
-      "low": 154.5,
-      "close": 155,
-      "volume": 29698374
-    },
-    {
-      "time": "2025-05-22",
-      "open": 153.5,
-      "high": 154,
-      "low": 151.5,
-      "close": 153,
-      "volume": 37074612
-    },
-    {
-      "time": "2025-05-23",
-      "open": 156,
-      "high": 156,
-      "low": 153,
-      "close": 154,
-      "volume": 22518013
-    },
-    {
-      "time": "2025-05-26",
-      "open": 152.5,
-      "high": 155,
-      "low": 151,
-      "close": 153,
-      "volume": 28992215
-    },
-    {
-      "time": "2025-05-27",
-      "open": 153.5,
-      "high": 155,
-      "low": 152,
-      "close": 152,
-      "volume": 27594038
-    },
-    {
-      "time": "2025-05-28",
-      "open": 154,
-      "high": 154,
-      "low": 151.5,
-      "close": 152,
-      "volume": 31758614
-    },
-    {
-      "time": "2025-05-29",
-      "open": 154.5,
-      "high": 158,
-      "low": 154,
-      "close": 156,
-      "volume": 91749249
-    },
     {
       "time": "2025-06-02",
       "open": 154,
@@ -2011,6 +1947,14 @@
       "low": 268,
       "close": 289,
       "volume": 289511198
+    },
+    {
+      "time": "2026-06-01",
+      "open": 302,
+      "high": 304.5,
+      "low": 293,
+      "close": 293.5,
+      "volume": 205766647
     }
   ],
   "fundamentals": {
@@ -2025,5 +1969,5 @@
     "high52w": 234,
     "low52w": 155
   },
-  "updatedAt": "2026-05-29T22:43:10.750Z"
+  "updatedAt": "2026-06-01T10:59:41.062Z"
 }
