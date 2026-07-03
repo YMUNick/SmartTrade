@@ -5,8 +5,8 @@
   "market": "US",
   "currency": "USD",
   "price": 308.63,
-  "change": 108.21,
-  "changePct": 53.99,
+  "change": 108.68,
+  "changePct": 54.35,
   "open": 294.12,
   "high": 309.42,
   "low": 293.68,
@@ -2010,7 +2010,7 @@
       "high": 309.42,
       "low": 293.68,
       "close": 308.63,
-      "volume": 75352800
+      "volume": 75400600
     }
   ],
   "fundamentals": {
@@ -2025,5 +2025,5 @@
     "high52w": 237,
     "low52w": 164
   },
-  "updatedAt": "2026-07-03T08:40:02.513Z"
+  "updatedAt": "2026-07-03T22:16:52.272Z"
 }
