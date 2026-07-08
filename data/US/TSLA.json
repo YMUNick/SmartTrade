@@ -4,22 +4,14 @@
   "englishName": "Tesla",
   "market": "US",
   "currency": "USD",
-  "price": 402.9,
-  "change": 60.21,
-  "changePct": 17.57,
-  "open": 416.96,
-  "high": 419.55,
-  "low": 401.88,
-  "volume": 38000940,
+  "price": 394.06,
+  "change": 49.79,
+  "changePct": 14.46,
+  "open": 399.38,
+  "high": 399.63,
+  "low": 390.51,
+  "volume": 33241905,
   "candles": [
-    {
-      "time": "2025-07-09",
-      "open": 297.55,
-      "high": 300.15,
-      "low": 293.55,
-      "close": 295.88,
-      "volume": 75586800
-    },
     {
       "time": "2025-07-10",
       "open": 300.05,
@@ -2010,7 +2002,15 @@
       "high": 419.56,
       "low": 401.88,
       "close": 402.9,
-      "volume": 38043200
+      "volume": 38149900
+    },
+    {
+      "time": "2026-07-08",
+      "open": 399.38,
+      "high": 399.63,
+      "low": 390.51,
+      "close": 394.06,
+      "volume": 33241905
     }
   ],
   "fundamentals": {
@@ -2025,5 +2025,5 @@
     "high52w": 299,
     "low52w": 138
   },
-  "updatedAt": "2026-07-08T07:59:20.954Z"
+  "updatedAt": "2026-07-08T22:17:57.793Z"
 }
