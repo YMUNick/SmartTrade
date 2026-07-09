@@ -5,12 +5,12 @@
   "market": "TW",
   "currency": "TWD",
   "price": 237.5,
-  "change": 0.5,
-  "changePct": 0.21,
-  "open": 240,
-  "high": 240.5,
-  "low": 234,
-  "volume": 37939126,
+  "change": 0,
+  "changePct": 0,
+  "open": 238,
+  "high": 240,
+  "low": 234.5,
+  "volume": 39854079,
   "candles": [
     {
       "time": "2025-07-01",
@@ -1995,6 +1995,14 @@
       "low": 234,
       "close": 237.5,
       "volume": 37939126
+    },
+    {
+      "time": "2026-07-09",
+      "open": 238,
+      "high": 240,
+      "low": 234.5,
+      "close": 237.5,
+      "volume": 39854079
     }
   ],
   "fundamentals": {
@@ -2009,5 +2017,5 @@
     "high52w": 234,
     "low52w": 155
   },
-  "updatedAt": "2026-07-08T22:17:40.126Z"
+  "updatedAt": "2026-07-09T08:54:56.308Z"
 }
