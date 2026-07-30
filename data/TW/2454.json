@@ -4,22 +4,14 @@
   "englishName": "MediaTek",
   "market": "TW",
   "currency": "TWD",
-  "price": 3150,
-  "change": -165,
-  "changePct": -4.98,
-  "open": 3315,
-  "high": 3335,
-  "low": 2990,
-  "volume": 16174122,
+  "price": 3235,
+  "change": 85,
+  "changePct": 2.7,
+  "open": 3145,
+  "high": 3410,
+  "low": 3060,
+  "volume": 14088689,
   "candles": [
-    {
-      "time": "2025-07-18",
-      "open": 1405,
-      "high": 1410,
-      "low": 1400,
-      "close": 1410,
-      "volume": 5064123
-    },
     {
       "time": "2025-07-21",
       "open": 1415,
@@ -2011,6 +2003,14 @@
       "low": 2990,
       "close": 3150,
       "volume": 16174122
+    },
+    {
+      "time": "2026-07-30",
+      "open": 3145,
+      "high": 3410,
+      "low": 3060,
+      "close": 3235,
+      "volume": 14088689
     }
   ],
   "fundamentals": {
@@ -2025,5 +2025,5 @@
     "high52w": 1515,
     "low52w": 980
   },
-  "updatedAt": "2026-07-29T22:14:29.298Z"
+  "updatedAt": "2026-07-30T07:58:08.877Z"
 }
