@@ -4,78 +4,14 @@
   "englishName": "Hon Hai",
   "market": "TW",
   "currency": "TWD",
-  "price": 250.5,
-  "change": 21,
-  "changePct": 9.15,
-  "open": 245,
-  "high": 252,
+  "price": 253,
+  "change": 2.5,
+  "changePct": 1,
+  "open": 244.5,
+  "high": 254,
   "low": 242.5,
-  "volume": 99413798,
+  "volume": 52666207,
   "candles": [
-    {
-      "time": "2025-07-21",
-      "open": 166,
-      "high": 166.5,
-      "low": 164.5,
-      "close": 165,
-      "volume": 17115644
-    },
-    {
-      "time": "2025-07-22",
-      "open": 165,
-      "high": 166,
-      "low": 161.5,
-      "close": 162,
-      "volume": 39452683
-    },
-    {
-      "time": "2025-07-23",
-      "open": 163.5,
-      "high": 166,
-      "low": 163.5,
-      "close": 166,
-      "volume": 51058093
-    },
-    {
-      "time": "2025-07-24",
-      "open": 168,
-      "high": 174,
-      "low": 167.5,
-      "close": 174,
-      "volume": 127736383
-    },
-    {
-      "time": "2025-07-25",
-      "open": 175.5,
-      "high": 175.5,
-      "low": 173,
-      "close": 174.5,
-      "volume": 57244442
-    },
-    {
-      "time": "2025-07-28",
-      "open": 176,
-      "high": 178,
-      "low": 175.5,
-      "close": 176,
-      "volume": 55666706
-    },
-    {
-      "time": "2025-07-29",
-      "open": 175,
-      "high": 175.5,
-      "low": 171,
-      "close": 171.5,
-      "volume": 49613588
-    },
-    {
-      "time": "2025-07-31",
-      "open": 178,
-      "high": 179,
-      "low": 176,
-      "close": 178,
-      "volume": 90529600
-    },
     {
       "time": "2025-08-01",
       "open": 175,
@@ -2011,6 +1947,14 @@
       "low": 242.5,
       "close": 250.5,
       "volume": 99413798
+    },
+    {
+      "time": "2026-08-03",
+      "open": 244.5,
+      "high": 254,
+      "low": 242.5,
+      "close": 253,
+      "volume": 52666207
     }
   ],
   "fundamentals": {
@@ -2025,5 +1969,5 @@
     "high52w": 234,
     "low52w": 155
   },
-  "updatedAt": "2026-07-31T22:16:10.307Z"
+  "updatedAt": "2026-08-03T08:50:54.163Z"
 }
