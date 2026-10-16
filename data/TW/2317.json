@@ -4,22 +4,14 @@
   "englishName": "Hon Hai",
   "market": "TW",
   "currency": "TWD",
-  "price": 239.5,
-  "change": -3.5,
-  "changePct": -1.44,
-  "open": 240,
-  "high": 240,
-  "low": 238,
-  "volume": 49562688,
+  "price": 244,
+  "change": 4.5,
+  "changePct": 1.88,
+  "open": 241.5,
+  "high": 247,
+  "low": 240.5,
+  "volume": 50144072,
   "candles": [
-    {
-      "time": "2025-10-02",
-      "open": 221.5,
-      "high": 226,
-      "low": 221,
-      "close": 225.5,
-      "volume": 73884573
-    },
     {
       "time": "2025-10-03",
       "open": 226,
@@ -2011,6 +2003,14 @@
       "low": 238,
       "close": 239.5,
       "volume": 49562688
+    },
+    {
+      "time": "2026-10-16",
+      "open": 241.5,
+      "high": 247,
+      "low": 240.5,
+      "close": 244,
+      "volume": 50144072
     }
   ],
   "fundamentals": {
@@ -2025,5 +2025,5 @@
     "high52w": 234,
     "low52w": 155
   },
-  "updatedAt": "2026-10-15T23:41:53.421Z"
+  "updatedAt": "2026-10-16T10:08:08.417Z"
 }
