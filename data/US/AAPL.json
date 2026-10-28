@@ -5,21 +5,13 @@
   "market": "US",
   "currency": "USD",
   "price": 347.1,
-  "change": 87.83,
-  "changePct": 34.3,
-  "open": 343.92,
+  "change": 91.02,
+  "changePct": 35.54,
+  "open": 343.17,
   "high": 347.78,
   "low": 342.39,
   "volume": 39051747,
   "candles": [
-    {
-      "time": "2025-10-28",
-      "open": 268.99,
-      "high": 269.89,
-      "low": 268.15,
-      "close": 269,
-      "volume": 41534800
-    },
     {
       "time": "2025-10-29",
       "open": 269.28,
@@ -2011,6 +2003,14 @@
       "low": 341.03,
       "close": 343.91,
       "volume": 42743600
+    },
+    {
+      "time": "2026-10-27",
+      "open": 343.17,
+      "high": 347.78,
+      "low": 342.39,
+      "close": 347.1,
+      "volume": 39949500
     }
   ],
   "fundamentals": {
@@ -2025,5 +2025,5 @@
     "high52w": 237,
     "low52w": 164
   },
-  "updatedAt": "2026-10-28T00:32:04.532Z"
+  "updatedAt": "2026-10-28T11:40:17.359Z"
 }
