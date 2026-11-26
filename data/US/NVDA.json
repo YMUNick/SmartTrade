@@ -5,8 +5,8 @@
   "market": "US",
   "currency": "USD",
   "price": 149.3,
-  "change": -31.86,
-  "changePct": -17.59,
+  "change": -30.98,
+  "changePct": -17.18,
   "open": 144.06,
   "high": 150.37,
   "low": 141.17,
@@ -2025,5 +2025,5 @@
     "high52w": 152,
     "low52w": 46
   },
-  "updatedAt": "2026-11-26T03:35:49.516Z"
+  "updatedAt": "2026-11-26T15:49:11.778Z"
 }
